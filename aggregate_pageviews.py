@@ -5,7 +5,7 @@ import json
 import csv
 import sys
 
-def writePageviews(article_name, start_year, stop_year, language_codes=[]):
+def write_page_views(article_name, start_year, stop_year, language_codes=[]):
     """Write 'page_views.csv' with daily page views on `article_name` from
     `start_year` (inclusive) to `stop_year` (exclusive). Optionally, specify
     a set of language codes (['en'] for example). If no language codes are
