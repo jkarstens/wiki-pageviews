@@ -46,4 +46,4 @@ if __name__ == "__main__":
     start_year = sys.argv[2]
     stop_year = sys.argv[3]
     language_codes = sys.argv[4] if len(sys.argv) > 4 else []
-    writePageviews(article_name, start_year, stop_year, language_codes)
+    write_page_views(article_name, start_year, stop_year, language_codes)
