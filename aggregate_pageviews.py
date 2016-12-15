@@ -43,7 +43,7 @@ def write_page_views(article_name, start_year, stop_year, language_codes=[]):
 
 if __name__ == "__main__":
     article_name = sys.argv[1]
-    start_year = sys.argv[2]
-    stop_year = sys.argv[3]
-    language_codes = sys.argv[4] if len(sys.argv) > 4 else []
+    start_year = int(sys.argv[2])
+    stop_year = int(sys.argv[3])
+    language_codes = []
     write_page_views(article_name, start_year, stop_year, language_codes)
